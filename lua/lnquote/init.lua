@@ -1,7 +1,6 @@
 local M = {}
 
-local _dir = os.getenv("PWD")
-local _filename = _dir .. "/lua/lnquote/quotes.txt"
+local _filename = "/home/adibf/Documents/lnquote.nvim/lua/lnquote/quotes.txt"
 
 local _goto_line = function(file, num)
     local ctr = 0
@@ -29,7 +28,7 @@ end
 
 M.add = function(quote)
     local file = io.open(_filename, "a")
-    file:write(quote.."\n")
+    file:write(quote .. "\n")
     file:close()
 end
 
@@ -38,11 +37,9 @@ M._show_quote_at_line = function(num)
     _goto_line(file, num - 1)
 
     local quote = file:read("*l")
-    print(quote)
 
     file:close()
 
-    -- returned for testing purpose
     return quote
 end
 
