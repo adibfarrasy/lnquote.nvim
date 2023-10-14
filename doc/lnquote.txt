@@ -1,0 +1,24 @@
+===================================================================================
+                                                                *lnquote.nvim*
+
+This plugin displays a random, single line of quote from a file repository
+of quotes.
+
+                                                       *lnquote.show_random()*
+lnquote.show_random()
+
+    Show a random single line of quote.    >
+        
+        lnquote.show_random()
+<
+
+                                                               *lnquote.add()*
+lnquote.add({quote})
+
+    Add a new quote into the quote repository. >
+        
+        lnquote.add("test quote")
+<
+
+vim:tw=78:ts=8:ft=help:norl:
+

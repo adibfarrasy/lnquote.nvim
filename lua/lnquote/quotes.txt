@@ -1,0 +1,100 @@
+Tip #1: CARE ABOUT YOUR CRAFT. Why spend your life developing software unless you care about doing it well?
+Tip #2: THINK! ABOUT YOUR WORK. Turn off the autopilot and take control. Constantly critique and appraise your work.
+Tip #3: YOU HAVE AGENCY. It’s your life. Grab hold of it and make it what you want.
+Tip #4: PROVIDE OPTIONS, DON’T MAKE LAME EXCUSES. Instead of excuses, provide options. Don’t say it can’t be done; explain what can be done.
+Tip #5: DON’T LIVE WITH BROKEN WINDOWS. Fix bad designs, wrong decisions, and poor code when you see them.
+Tip #6: BE A CATALYST FOR CHANGE. You can’t force change on people. Instead, show them how the future might be and help them participate in creating it.
+Tip #7: REMEMBER THE BIG PICTURE. Don’t get so engrossed in the details that you forget to check what’s happening around you.
+Tip #8: MAKE QUALITY A REQUIREMENTS ISSUE. Involve your users in determining the project’s real quality requirements.
+Tip #9: INVEST REGULARLY IN YOUR KNOWLEDGE PORTFOLIO. Make learning a habit.
+Tip #10: CRITICALLY ANALYZE WHAT YOU READ AND HEAR. Don’t be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project.
+Tip #11: ENGLISH IS JUST ANOTHER PROGRAMMING LANGUAGE. Treat English as Just Another Programming Language. Write documents as you would write code: honor the DRY principle, ETC, automation, and so on.
+Tip #12: IT’S BOTH WHAT YOU SAY AND THE WAY YOU SAY IT. There’s no point in having great ideas if you don’t communicate them effectively.
+Tip #13: BUILD DOCUMENTATION IN, DON’T BOLT IT ON. Documentation created separately from code is less likely to be correct and up to date.
+Tip #14: GOOD DESIGN IS EASIER TO CHANGE THAN BAD DESIGN. A thing is well designed if it adapts to the people who use it. For code, that means it must adapt by changing.
+Tip #15: DRY—DON'T REPEAT YOURSELF. Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+Tip #16: MAKE IT EASY TO REUSE. If it’s easy to reuse, people will. Create an environment that supports reuse.
+Tip #17: ELIMINATE EFFECTS BETWEEN UNRELATED THINGS. Design components that are self-contained, independent, and have a single, well-defined purpose.
+Tip #18: THERE ARE NO FINAL DECISIONS. No decision is cast in stone. Instead, consider each as being written in the sand at the beach, and plan for change.
+Tip #19: FORGO FOLLOWING FADS. Neal Ford says, “Yesterday’s Best Practice Becomes Tomorrow’s Antipattern.” Choose architectures based on fundamentals, not fashion.
+Tip #20: USE TRACER BULLETS TO FIND THE TARGET. Tracer bullets let you home in on your target by trying things and seeing how close they land.
+Tip #21: PROTOTYPE TO LEARN. Prototyping is a learning experience. Its value lies not in the code you produce, but in the lessons you learn.
+Tip #22: PROGRAM CLOSE TO THE PROBLEM DOMAIN. Design and code in the language of the problem domain.
+Tip #23: ESTIMATE TO AVOID SURPRISES. Estimate before you start. You’ll spot potential problems up front.
+Tip #24: ITERATE THE SCHEDULE WITH THE CODE. Use experience you gain as you implement to refine the project time scales.
+Tip #25: KEEP KNOWLEDGE IN PLAIN TEXT. Plain text won’t become obsolete. It helps leverage your work and simplifies debugging and testing.
+Tip #26: USE THE POWER OF COMMAND SHELLS. Use the shell when graphical user interfaces don’t cut it.
+Tip #27: ACHIEVE EDITOR FLUENCY. An editor is your most important tool. Know how to make it do what you need, quickly and accurately.
+Tip #28: ALWAYS USE VERSION CONTROL. Version control is a time machine for your work; you can go back.
+Tip #29: FIX THE PROBLEM, NOT THE BLAME. It doesn’t really matter whether the bug is your fault or someone else’s—it is still your problem, and it still needs to be fixed.
+Tip #30: DON’T PANIC. This is true for galactic hitchhikers and for developers.
+Tip #31: FAILING TEST BEFORE FIXING CODE. Create a focussed test that reveals the bug before you try fixing it.
+Tip #32: READ THE DAMN ERROR MESSAGE. Most exceptions tell both what failed and where it failed. If you’re lucky you might even get parameter values.
+Tip #33: “SELECT” ISN'T BROKEN. It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application.
+Tip #34: DON’T ASSUME IT—PROVE IT. Prove your assumptions in the actual environment—with real data and boundary conditions.
+Tip #35: LEARN A TEXT MANIPULATION LANGUAGE. You spend a large part of each day working with text. Why not have the computer do some of it for you?
+Tip #36: YOU CAN’T WRITE PERFECT SOFTWARE. Software can’t be perfect. Protect your code and users from the inevitable errors.
+Tip #37: DESIGN WITH CONTRACTS. Use contracts to document and verify that code does no more and no less than it claims to do.
+Tip #38: CRASH EARLY. A dead program normally does a lot less damage than a crippled one.
+Tip #39: USE ASSERTIONS TO PREVENT THE IMPOSSIBLE. If it can’t happen, use assertions to ensure that it won’t. Assertions validate your assumptions. Use them to protect your code from an uncertain world.
+Tip #40: FINISH WHAT YOU START. Where possible, the function or object that allocates a resource should be responsible for deallocating it.
+Tip #41: ACT LOCALLY. Keep the scope of mutable variables and open resources short and easily visible.
+Tip #42: TAKE SMALL STEPS—ALWAYS. Small steps always; check the feedback; and adjust before proceeding.
+Tip #43: AVOID FORTUNE-TELLING. Only look ahead as far as you can see.
+Tip #44: DECOUPLED CODE IS EASIER TO CHANGE. Coupling ties things together, so that it’s harder to change just one thing.
+Tip #45: TELL, DON’T ASK. Don’t get values from an object, transform them, and then stick them back. Make the object do the work.
+Tip #46: DON’T CHAIN METHOD CALLS. Try not to have more than one dot when you access something.
+Tip #47: AVOID GLOBAL DATA. It’s like adding an extra parameter to every method.
+Tip #48: IF IT’S IMPORTANT ENOUGH TO BE GLOBAL, WRAP IT IN AN API. …but only if you really, really want it to be global.
+Tip #49: PROGRAMMING IS ABOUT CODE, BUT PROGRAMS ARE ABOUT DATA. All programs transform data, converting an input into an output. Start designing using transformations.
+Tip #50: DON’T HOARD STATE; PASS IT AROUND. Don’t hang on to data within a function or module. Take one down and pass it around.
+Tip #51: DON'T PAY INHERITANCE TAX. Consider alternatives that better fit your needs, such as interfaces, delegation, or mixins
+Tip #52: PREFER INTERFACES TO EXPRESS POLYMORPHISM. Interfaces make polymorphism explicit without the coupling introduced by inheritance.
+Tip #53: DELEGATE TO SERVICES: HAS-A TRUMPS IS-A. Don’t inherit from services: contain them.
+Tip #54: USE MIXINS TO SHARE FUNCTIONALITY. Mixins add functionality to classes without the inheritance tax. Combine with interfaces for painless polymorphism.
+Tip #55: PARAMETERIZE YOUR APP USING EXTERNAL CONFIGURATION. When code relies on values that may change after the application has gone live, keep those values external to the app. When you application will run in different environments, and potentially for different customers, keep the environment and customer specific values outside the app.
+Tip #56: ANALYZE WORKFLOW TO IMPROVE CONCURRENCY. Exploit concurrency in your user’s workflow.
+Tip #57: SHARED STATE IS INCORRECT STATE. Shared state opens a large can of worms that can often only be fixed by rebooting.
+Tip #58: RANDOM FAILURES ARE OFTEN CONCURRENCY ISSUES. Variations in timing and context can expose concurrency bugs, but in inconsistent and irreproducible ways.
+Tip #59: USE ACTORS FOR CONCURRENCY WITHOUT SHARED STATE. Use Actors to manage concurrent state without explicit synchronization.
+Tip #60: USE BLACKBOARDS TO COORDINATE WORKFLOW. Use blackboards to coordinate disparate facts and agents, while maintaining independence and isolation among participants.
+Tip #61: LISTEN TO YOUR INNER LIZARD. When it feels like your code is pushing back, it’s really your subconscious trying to tell you something’s wrong.
+Tip #62: DON’T PROGRAM BY COINCIDENCE. Rely only on reliable things. Beware of accidental complexity, and don’t confuse a happy coincidence with a purposeful plan.
+Tip #63: ESTIMATE THE ORDER OF YOUR ALGORITHMS. Get a feel for how long things are likely to take before you write code.
+Tip #64: TEST YOUR ESTIMATES. Mathematical analysis of algorithms doesn’t tell you everything. Try timing your code in its target environment.
+Tip #65: REFACTOR EARLY, REFACTOR OFTEN. Just as you might weed and rearrange a garden, rewrite, rework, and re-architect code when it needs it. Fix the root of the problem.
+Tip #66: TESTING IS NOT ABOUT FINDING BUGS. A test is a perspective into your code, and gives you feedback about its design, api, and coupling.
+Tip #67: A TEST IS THE FIRST USER OF YOUR CODE. Use its feedback to guide what you do.
+Tip #68: BUILD END-TO-END, NOT TOP-DOWN OR BOTTOM UP. Build small pieces of end-to-end functionality, learning about the problem as you go.
+Tip #69: DESIGN TO TEST. Start thinking about testing before you write a line of code.
+Tip #70: TEST YOUR SOFTWARE, OR YOUR USERS WILL. Test ruthlessly. Don’t make your users find bugs for you.
+Tip #71: USE PROPERTY-BASED TESTS TO VALIDATE YOUR ASSUMPTIONS. Property-based tests will try things you never thought to try, and exercise your code in ways is wasn’t meant to be used.
+Tip #72: KEEP IT SIMPLE AND MINIMIZE ATTACK SURFACES. Complex code creates a breeding ground for bugs and opportunities for attackers to exploit.
+Tip #73: APPLY SECURITY PATCHES QUICKLY. Attackers deploy exploits as quick as they can, you have to be quicker.
+Tip #74: NAME WELL; RENAME WHEN NEEDED. Name to express your intent to readers, and rename as soon as that intent shifts.
+Tip #75: NO ONE KNOWS EXACTLY WHAT THEY WANT. They might know a general direction, but they won’t know the twists and turns.
+Tip #76: PROGRAMMERS HELP PEOPLE UNDERSTAND WHAT THEY WANT. Software development is an act of co-creation between users and programmers.
+Tip #77: REQUIREMENTS ARE LEARNED IN A FEEDBACK LOOP. Understanding requirements requires exploration and feedback, so the consequences of decisions can be used to refine the initial ideas.
+Tip #78: WORK WITH A USER TO THINK LIKE A USER. It’s the best way to gain insight into how the system will really be used.
+Tip #79: POLICY IS METADATA. Don’t hardcode policy into a system; instead express it as metadata used by the system.
+Tip #80: USE A PROJECT GLOSSARY. Create and maintain a single source of all the specific terms and vocabulary for a project.
+Tip #81: DON’T THINK OUTSIDE THE BOX—FIND THE BOX. When faced with an impossible problem, identify the real constraints. Ask yourself: “Does it have to be done this way? Does it have to be done at all?”
+Tip #82: DON'T GO INTO THE CODE ALONE. Programming can be difficult and demanding. Take a friend with you.
+Tip #83: AGILE IS NOT A NOUN; AGILE IS HOW YOU DO THINGS. Agile is an adjective: it’s how you do something.
+Tip #84: MAINTAIN SMALL STABLE TEAMS. Teams should be small and stable, where everyone trusts each other and depends on each other.
+Tip #85: SCHEDULE IT TO MAKE IT HAPPEN. If you don’t schedule it, it’s not going to happen. Schedule reflection, experimentation, learning and skills improvement.
+Tip #86: ORGANIZE FULLY FUNCTIONAL TEAMS. Organize Around Functionality, Not Job Functions. Don’t separate UI/UX designers from coders, frontend from backend, testers from data modelers, design from deployment. Build teams so you can build code end-to-end, incrementally and iteratively.
+Tip #87: DO WHAT WORKS, NOT WHAT’S FASHIONABLE. Don’t adopt a development method or technique just because other companies are doing it. Adopt what works for your team, in your context.
+Tip #88: DELIVER WHEN USERS NEED IT. Don’t wait weeks or months to deliver just because your process demands it.
+Tip #89: USE VERSION CONTROL TO DRIVE BUILDS, TESTS, AND RELEASES. Use commits or pushes to trigger builds, tests, releases. Use a version control tag to deploy to production.
+Tip #90: TEST EARLY, TEST OFTEN, TEST AUTOMATICALLY. Tests that run with every build are much more effective than test plans that sit on a shelf.
+Tip #91: CODING AIN’T DONE ’TIL ALL THE TESTS RUN. ’Nuff said.
+Tip #92: USE SABOTEURS TO TEST YOUR TESTING. Introduce bugs on purpose in a separate copy of the source to verify that testing will catch them.
+Tip #93: TEST STATE COVERAGE, NOT CODE COVERAGE. Identify and test significant program states. Testing just lines of code isn’t enough.
+Tip #94: FIND BUGS ONCE. Once a human tester finds a bug, it should be the last time a human tester finds that bug. Automatic tests should check for it from then on.
+Tip #95: DON'T USE MANUAL PROCEDURES. A computer will execute the same instructions, in the same order, time after time.
+Tip #96: DELIGHT USERS, DON’T JUST DELIVER CODE. Develop solutions that produce business value for your users and delight them every day.
+Tip #97: SIGN YOUR WORK. Artisans of an earlier age were proud to sign their work. You should be, too.
+Tip #98: FIRST, DO NO HARM. Failure is inevitable. Make sure no one will suffer because of it.
+Tip #99: DON’T ENABLE SCUMBAGS. Because you risk becoming one, too.
+Tip #100: IT’S YOUR LIFE. SHARE IT. CELEBRATE IT. BUILD IT. AND HAVE FUN!. Enjoy this amazing life we have, and do great things.
